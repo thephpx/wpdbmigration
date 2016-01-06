@@ -32,8 +32,8 @@ $domain_o = rtrim("http://abc.com","/");
 $domain_n = rtrim("http://xyz.com","/");
 
 /* Provide old and new path replacement values */
-$path_o = rtrim(""/home/abc/public_html","/");
-$path_n = rtrim(""/home/xyz/public_html","/");
+$path_o = rtrim("/home/abc/public_html","/");
+$path_n = rtrim("/home/xyz/public_html","/");
 
 /* Calculate string delta */
 $domain_d = strlen($domain_n) - strlen($domain_o);
